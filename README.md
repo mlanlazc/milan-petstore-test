@@ -79,7 +79,7 @@ public class Main {
   public static void main(String[] args) {
     Milanpetstoretest client = new Milanpetstoretest();
     try {
-        Object response = client.petsService.listPets(5);
+        Object response = client.petsService.listPets(9);
         System.out.println(response);
     } catch(ApiException e) {
         e.printStackTrace();
