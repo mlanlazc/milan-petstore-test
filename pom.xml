@@ -17,7 +17,7 @@
     <!-- See https://central.sonatype.org/publish/requirements/#project-name-description-and-url -->
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A Java SDK for Milanpetstoretest.</description>
-    <url><!-- Eg. https://liblab.com/ --></url>
+    <url>https://liblab.com</url>
 
     <!-- See https://central.sonatype.org/publish/requirements/#scm-information -->
     <scm>
@@ -256,4 +256,7 @@
             </plugin>
         </plugins>
     </reporting>
+    <organization>
+        <url>https://liblab.com</url>
+    </organization>
 </project>
