@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 public enum Environment {
-  DEFAULT("https://eox352uelardliu.m.pipedream.net");
+  DEFAULT("https://example.com");
 
   private final String url;
 
