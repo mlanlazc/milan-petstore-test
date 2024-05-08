@@ -1,9 +1,9 @@
-# Milanpetstoretest Java SDK 3.2.1
+# Milanpetstoretest Java SDK 3.3.0
 
 A Java SDK for Milanpetstoretest.
 
-- API version: 3.2.1
-- SDK version: 3.2.1
+- API version: 3.3.0
+- SDK version: 3.3.0
 
 ## Table of Contents
 
@@ -42,7 +42,7 @@ implementation group: "io.github.mlanlazc", name: "Milanpetstoretest", version: 
 
 ## API Endpoint Services
 
-All URIs are relative to https://eox352uelardliu.m.pipedream.net.
+All URIs are relative to https://example.com.
 
 Click the service name for a full list of the service methods.
 
@@ -79,7 +79,7 @@ public class Main {
   public static void main(String[] args) {
     Milanpetstoretest client = new Milanpetstoretest();
     try {
-        Object response = client.petsService.listPets(9);
+        Object response = client.petsService.listPets(2);
         System.out.println(response);
     } catch(ApiException e) {
         e.printStackTrace();
