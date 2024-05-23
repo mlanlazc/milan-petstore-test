@@ -1,9 +1,9 @@
-# Milanpetstoretest Java SDK 3.3.0
+# Milanpetstoretest Java SDK 3.3.1
 
 A Java SDK for Milanpetstoretest.
 
-- API version: 3.3.0
-- SDK version: 3.3.0
+- API version: 3.3.1
+- SDK version: 3.3.1
 
 ## Table of Contents
 
@@ -79,7 +79,7 @@ public class Main {
   public static void main(String[] args) {
     Milanpetstoretest client = new Milanpetstoretest();
     try {
-        Object response = client.petsService.listPets(2);
+        Object response = client.petsService.listPets(7);
         System.out.println(response);
     } catch(ApiException e) {
         e.printStackTrace();
