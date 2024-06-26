@@ -34,14 +34,12 @@ public class BaseService {
       response = this.httpClient.newCall(request).execute();
     } catch (IOException e) {
       ApiException apiException = new ApiException(e.getMessage());
-
       throw apiException;
     }
     if (response.isSuccessful()) {
       return response;
     } else {
       ApiException apiException = new ApiException(response.code());
-
       throw apiException;
     }
   }
